@@ -13,7 +13,7 @@ vim.cmd('colorscheme rose-pine')
   '';
 
 
-  home.file.".config/nvim/lua/settings".text = ''
+  home.file.".config/nvim/lua/settings.lua".text = ''
 -- settings.lua
 
 -- General settings
@@ -31,7 +31,7 @@ vim.cmd("syntax on")
   '';
 
 
-  home.file.".config/nvim/lua/mappings".text = ''
+  home.file.".config/nvim/lua/mappings.lua".text = ''
 -- mappings.lua
 
 -- Define mapleader
@@ -52,7 +52,7 @@ map('n', '<leader>r', ':Ranger<CR>', opts)
 map('n', '<leader>t', ':NERDTreeToggle<CR>', opts)
   '';
 
-  home.file.".config/nvim/lua/plugins".text = ''
+  home.file.".config/nvim/lua/plugins.lua".text = ''
 
   '';
 

@@ -124,6 +124,7 @@
     zoxide                              # Z directory jumper
     fzf                                 # Fuzzy finder for terminal
     bat                                 # Enhanced 'cat' with syntax highlighting
+    ranger                              # Terminal file manager with keyboard shortcuts
 
     # Terminal Emulator
     kitty                               # Terminal emulator
@@ -137,7 +138,7 @@
 
     # Fun and Miscellaneous
     neofetch                            # System info display
-    #sl                                  # Steam locomotive animation
+    sl                                  # Steam locomotive animation
     cmatrix                             # Matrix effect in terminal
     asciiquarium			# Watch an aquarium in terminal
     cowsay                              # ASCII cowspeak
