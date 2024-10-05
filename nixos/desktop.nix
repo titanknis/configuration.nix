@@ -2,6 +2,18 @@
 
 {
 
+# Networking Configuration
+  networking.hostName = "nixos";		# Set system hostname
+  networking.networkmanager.enable = true;	# Enable NetworkManager for easier network management
+
+  # Timezone and Locale Settings
+  time.timeZone = "Africa/Tunis";          # Set the correct timezone
+  i18n.defaultLocale = "en_US.UTF-8";      # Set system locale
+  console = {
+    font = "Lat2-Terminus16";              # Console font
+    useXkbConfig = true;                   # Use XKB configuration for keyboard layout in tty
+  };
+
   # Enable the X11 windowing system
   services.xserver.enable = true;
 

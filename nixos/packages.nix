@@ -2,58 +2,56 @@
 
 {
 
-  # installed system packages
-  environment.systempackages = with pkgs; [
-    # browsers and editors
-    firefox                             # web browser
-    vscodium                            # visual studio code alternative
-    neovim                              # text editor
-    vlc
-    #libreoffice
-    #onlyoffice-bin
-    #spotify   				# music streaming service
+# Installed System Packages
+  environment.systemPackages = with pkgs; [
+    # Browsers and Editors
+    firefox                             # Web browser
+    vscodium                            # Visual Studio Code alternative
+    neovim                              # Text editor
+    vlc                                 # Video player
+    #spotify   				            # Music streaming service
 
-    # development tools
-    gcc                                 # c/c++ compiler
-    gdb                                 # gnu debugger
-    codeblocks                          # code::blocks ide
-    git                                 # git version control
+    # Development Tools
+    gcc                                 # C/C++ compiler
+    gdb                                 # GNU Debugger
+    codeblocks                          # Code::Blocks IDE
+    git                                 # Git version control
 
-    # cli utilities
-    wget                                # download tool (better for resuming)
-    curl                                # download tool (supports more protocols)
-    zoxide                              # z directory jumper
-    fzf                                 # fuzzy finder for terminal
-    bat                                 # enhanced 'cat' with syntax highlighting
-    ranger                              # terminal file manager with keyboard shortcuts
+    # CLI Utilities
+    wget                                # Download tool (better for resuming)
+    curl                                # Download tool (supports more protocols)
+    zoxide                              # Z directory jumper
+    fzf                                 # Fuzzy finder for terminal
+    bat                                 # Enhanced 'cat' with syntax highlighting
+    ranger                              # Terminal file manager with keyboard shortcuts
 
-    # terminal emulator
-    kitty                               # terminal emulator
+    # Terminal Emulator
+    kitty                               # Terminal emulator
 
-    # wine and winetricks
-    #wine                                # wine for running windows applications
-    #winetricks                          # winetricks for managing wine
+    # Wine and Winetricks
+    #wine                                # Wine for running Windows applications
+    #winetricks                          # Winetricks for managing Wine
 
-    # file management
-    #unrar                               # tool for extracting rar archives
+    # File Management
+    #unrar                               # Tool for extracting RAR archives
 
-    # fun and miscellaneous
-    neofetch                            # system info display
-    sl                                  # steam locomotive animation
-    cmatrix                             # matrix effect in terminal
-    asciiquarium			# watch an aquarium in terminal
-    cowsay                              # ascii cowspeak
-    ponysay				# pony-themed version of cowsay for fun ascii art
-    fortune                             # display random quotes
-    pipes                               # animated pipes in terminal
-    figlet                              # generate ascii art text
+    # Fun and Miscellaneous
+    neofetch                            # System info display
+    sl                                  # Steam locomotive animation
+    cmatrix                             # Matrix effect in terminal
+    asciiquarium			# Watch an aquarium in terminal
+    cowsay                              # ASCII cowspeak
+    ponysay				# Pony-themed version of cowsay for fun ASCII art
+    fortune                             # Display random quotes
+    pipes                               # Animated pipes in terminal
+    figlet                              # Generate ASCII art text
 
-    # clipboard and clipboard tools
-    wl-clipboard                        # clipboard manager for wayland
+    # Clipboard and Clipboard Tools
+    wl-clipboard                        # Clipboard manager for Wayland
 
-    # starship prompt and fonts
-    starship                            # cross-shell prompt
-    fira-code                           # monospaced programming font
+    # Starship Prompt and Fonts
+    starship                            # Cross-shell prompt
+    fira-code                           # Monospaced programming font
   ];
 }
 

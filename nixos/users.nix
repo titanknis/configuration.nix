@@ -1,12 +1,12 @@
 { config, lib, pkgs, ... }:
 
 {
-  # user configuration
+  # User Configuration
   users.users.titanknis = {
-    isnormaluser = true;
+    isNormalUser = true;
     home = "/home/titanknis";
-    description = "system master";
-    extragroups = [ "wheel" "networkmanager" "libvirtd" "kvm" ];  # add user to sudo and other groups
+    description = "System Master";
+    extraGroups = [ "wheel" "networkmanager" "libvirtd" "kvm" ];  # Add user to sudo and other groups
   };
 
 }
