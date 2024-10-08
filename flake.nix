@@ -16,7 +16,7 @@
         system = "x86_64-linux";
         modules = [
           ./nixos/configuration.nix
-	  #disko.nixosModules.disko
+          #disko.nixosModules.disko
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;

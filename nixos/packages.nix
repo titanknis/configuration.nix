@@ -10,6 +10,12 @@
     neovim                              # Text editor
     vlc                                 # Video player
     #spotify   				            # Music streaming service
+    onlyoffice-bin
+    libreoffice 
+    marktext
+   #obsidian
+    zettlr
+
 
     # Development Tools
     gcc                                 # C/C++ compiler
