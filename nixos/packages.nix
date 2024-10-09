@@ -6,21 +6,21 @@
   environment.systemPackages = with pkgs; [
     # Browsers and Editors
     firefox                             # Web browser
-    vscodium                            # Visual Studio Code alternative
+    #vscodium                            # Visual Studio Code alternative
     neovim                              # Text editor
-    vlc                                 # Video player
+    #vlc                                 # Video player
     #spotify   				            # Music streaming service
-    onlyoffice-bin
-    libreoffice 
-    marktext
+    #onlyoffice-bin
+    #libreoffice 
+    #marktext
    #obsidian
-    zettlr
+    #zettlr
 
 
     # Development Tools
-    gcc                                 # C/C++ compiler
-    gdb                                 # GNU Debugger
-    codeblocks                          # Code::Blocks IDE
+    #gcc                                 # C/C++ compiler
+    #gdb                                 # GNU Debugger
+    #codeblocks                          # Code::Blocks IDE
     git                                 # Git version control
 
     # CLI Utilities
